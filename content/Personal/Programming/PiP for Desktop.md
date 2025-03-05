@@ -1,0 +1,2 @@
+![[Pasted image 20250124024247.png]]
+The main UI for PiP for Desktop should itself by a picture in picture window. It should exist either in the system tray or as a live always on top window, toggleable by hotkey, and with the option to close on exit instead of hiding in tray. It should keep its own dimensions, and when a window is loaded into PiP, it should take the same dimensions and position.
