@@ -1,4 +1,11 @@
-#Newsletter #Work
+---
+title: Template Progress
+draft: false
+tags:
+  - Newsletter 
+  - Work
+---
+
 BSVW - Done
 KINO - Done
 HEBE- Done
