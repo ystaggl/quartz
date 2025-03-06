@@ -11,8 +11,6 @@ Minimum 29x29 pixels for the logo
 
 Minimum margin of half the logo width z.B. 15 pixels on each side (=padding of 7.5 pixels)
 
-test
-
 # LinkedIn:
 Download: [﻿brand.linkedin.com/content/brand/global/en_us/index/downloads](https://brand.linkedin.com/content/brand/global/en_us/index/downloads) 
 

@@ -10,9 +10,9 @@ tags:
 - [x] HEBE
 - [x] ARNO
 - [x] BIRD
+- [x] TIQU
 - [ ] WDCS - Simon has to do something
 - [ ] WITA - Background images needed
-- [ ] TIQU - Ready for testing
 - [ ] WRTV - In progress
 - [ ] PROJU 
 - [ ] ROKI
