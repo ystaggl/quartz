@@ -18,7 +18,7 @@ Guidelines:
 
 [﻿brand.linkedin.com/content/brand/global/en_us/index/visual-identity/logo](https://brand.linkedin.com/content/brand/global/en_us/index/visual-identity/logo) 
 
-Modern download/guidelines (not preferred, use judgement):
+Modern download/guidelines (not necessarily preferred, use judgement):
 
 [﻿brand.linkedin.com/downloads](https://brand.linkedin.com/downloads) 
 
