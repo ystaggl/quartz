@@ -1,10 +1,10 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-// .task-list-item {
-    // text-decoration: revert
-// }
-
-input[type="checkbox"]::before {
+.task-list-item {
     text-decoration: revert
 }
+
+// input[type="checkbox"]::before {
+    // text-decoration: revert
+// }
