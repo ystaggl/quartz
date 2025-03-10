@@ -18,7 +18,7 @@ tags:
 		- Überschrift colors have been set to red.
 	- [ ]  Social media icons wrap because there are too many of them, but they asked for it, so they'll get it.
 - [ ] WITA - Background images needed
-- [ ] PROJU 
+- [ ] PROJ
 - [ ] ROKI
 - [ ] AIRT
 
