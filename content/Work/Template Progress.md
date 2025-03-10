@@ -14,6 +14,7 @@ tags:
 - [x] WDCS
 - [x] WRTV
 	- [ ] “Willst Du einfach und unkompliziert Deine Daten aktualisieren? Dann klicke bitte hier: Daten ändern." Do we have the possibility to do this, or do I have experience with other customers? If so, what kind of form do I need to create and what do I need to bear in mind?
+	- CI Colors might need to be changed as they don't reflect the old e-mail style, I don't know if they specifically aksed for this CI or not.
 - [ ] WITA - Background images needed
 - [ ] PROJU 
 - [ ] ROKI
