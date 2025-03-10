@@ -11,7 +11,7 @@ tags:
 - [x] ARNO
 - [x] BIRD
 - [x] TIQU
-- [ ] WDCS - Simon has to do something
+- [x] WDCS
 - [ ] WITA - Background images needed
 - [ ] WRTV - In progress
 - [ ] PROJU 
