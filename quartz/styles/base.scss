@@ -602,3 +602,8 @@ iframe.pdf {
   transition: width 0.2s ease;
   z-index: 9999;
 }
+
+// put your custom CSS here!
+.task-list-item {
+    text-decoration: revert !important
+}
