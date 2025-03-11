@@ -33,7 +33,7 @@ Save these for last:
 - [ ] RNDE
 
 Major Bugs:
-* This crash happens when a /Spalten is used with stretch vertical alignment:
+* [x]  This crash happens when a /Spalten is used with stretch vertical alignment:
 ```
 114, in _compute_fs_body_html
     full_html = FsMailingMailing.add_missing_height_style(full_html)
@@ -43,6 +43,7 @@ Major Bugs:
     parse_styles(custom_col['style'])['height']
 KeyError: 'height'
 ```
+	- Should be fixed? Waiting for testing.
 - [ ] Gaps between elements with dark footers
 	- Fix: Every element needs to have background color applied, not just the topmost.
 - [ ] Small font sizes have too large line height (caused by p default font size)
