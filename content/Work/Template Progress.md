@@ -13,8 +13,9 @@ tags:
 - [x] TIQU
 - [x] WDCS
 - [x] PROJ
-- [x] WRTV
-	- [ ] "“Willst Du einfach und unkompliziert Deine Daten aktualisieren? Dann klicke bitte hier: Daten ändern." Do we have the possibility to do this, or do I have experience with other customers? If so, what kind of form do I need to create and what do I need to bear in mind?" use about:blank for now.
+- [ ] WRTV
+	- [x] "“Willst Du einfach und unkompliziert Deine Daten aktualisieren? Dann klicke bitte hier: Daten ändern." Do we have the possibility to do this, or do I have experience with other customers? If so, what kind of form do I need to create and what do I need to bear in mind?" use about:blank for now.
+	- [ ] Acid Testing
 - [ ] WITA - Background images needed
 - [ ] ROKI
 	- [ ] Requires CSS: blockquote { font-size: initial; }
