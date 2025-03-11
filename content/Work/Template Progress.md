@@ -24,7 +24,7 @@ tags:
 	- [ ] Spendebestätigung link needs to be set
 - [ ] ROKI
 	- [ ] Requires CSS: blockquote { font-size: initial; }
-- [ ] AIRT
+- [ ] AIAT
 
 Major Bugs:
 - [ ] Gaps between elements with dark footers
