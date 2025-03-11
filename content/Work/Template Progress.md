@@ -21,9 +21,18 @@ tags:
 	- [ ] Requires CSS: blockquote { font-size: initial; }
 - [ ] AIAT
 	- Waiting on image width
-	- Fix the python bug
+	- [x] Fix the python bug
+- [ ] VGTF 
+	- Modified CI to match old newsletter:
+		- h1 32px #585757
+		- h2 24px #585757
+		- h3  20px #585757
+		- text 16px #585757
+		- link 16px #585757
+		- Hintergrund \#EDEBE4
+		- CI Lime Green: \#94C11C
+	* Left-Right alignment of images on mobile is deeply horribly wrong. Compare test email between VGTF and WDCS.
 - [ ] CARE
-- [ ] VGTF (tool3?)
 - [ ] MPSA
 - [ ] TRAL
 
@@ -43,7 +52,7 @@ Major Bugs:
     parse_styles(custom_col['style'])['height']
 KeyError: 'height'
 ```
-	- Should be fixed? Waiting for testing.
+*  Should be fixed? Waiting for testing.
 - [ ] Gaps between elements with dark footers
 	- Fix: Every element needs to have background color applied, not just the topmost.
 - [ ] Small font sizes have too large line height (caused by p default font size)
