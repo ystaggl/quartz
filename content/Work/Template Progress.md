@@ -22,7 +22,7 @@ tags:
 	- Waiting on image width
 
 Major Bugs:
-* Crash seen once but we can add error handling for this:
+* This crash happens when a /Spalten is used with stretch vertical alignment:
 ```
 114, in _compute_fs_body_html
     full_html = FsMailingMailing.add_missing_height_style(full_html)
