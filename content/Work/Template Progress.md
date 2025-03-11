@@ -14,11 +14,12 @@ tags:
 - [x] WDCS
 - [x] PROJ
 - [ ] WRTV
-	- [x] "“Willst Du einfach und unkompliziert Deine Daten aktualisieren? Dann klicke bitte hier: Daten ändern." Do we have the possibility to do this, or do I have experience with other customers? If so, what kind of form do I need to create and what do I need to bear in mind?" use about:blank for now.
+	- [ ] Daten aendern button needs to be setup
 	- [ ] Acid Testing
 - [ ] WITA - Background images needed
 - [ ] ROKI
 	- [ ] Requires CSS: blockquote { font-size: initial; }
+		- still not implemented
 - [ ] AIAT
 	- Waiting on image width
 	- [x] Fix the python bug
@@ -35,8 +36,10 @@ tags:
 - [ ] CARE
 	- Odoo Client Fehler when trying to create document. SyntaxError: Unexpected String @web.assets_web.min.js:2415
 - [ ] MPSA
-	- Header needs to be considered. Current tools do not allow for an easy way to make the header, unless we want to accept \[Header 1]. Instead, we can use the technique shown in \[Header 3], just make the thing an image as it should have been in the first place, the only change I would make is touch up the text rendering a little
+	- Header needs to be considered. Current tools do not allow for an easy way to make the header, unless we want to accept \[Approach 1]. Instead, we can use the technique shown in \[Approach 3], just make the thing an image, text might need to be touched up for release though.
+		- Alternatively, \[Approach 2] might work if we can get the /Spalten vertical align bug fixed
 - [ ] TRAL
+	- I don't have access in fundraising studio
 
 Save these for last:
 - [ ] CONA
@@ -57,5 +60,6 @@ KeyError: 'height'
 *  Should be fixed? Waiting for testing.
 - [ ] Gaps between elements with dark footers
 	- Fix: Every element needs to have background color applied, not just the topmost.
+- [ ] /Spalten vertical alignment doesn't work
 - [ ] Small font sizes have too large line height (caused by p default font size)
 	- We are skipping this for now
