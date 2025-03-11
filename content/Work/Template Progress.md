@@ -23,6 +23,7 @@ tags:
 	- [ ] Acid testing
 	- [ ] Spendebestätigung link needs to be set
 - [ ] ROKI
+	- [ ] Requires CSS: blockquote { font-size: initial; }
 - [ ] AIRT
 
 Major Bugs:
