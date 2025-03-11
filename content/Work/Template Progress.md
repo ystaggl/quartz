@@ -33,7 +33,9 @@ tags:
 		- CI Lime Green: \#94C11C
 	* Left-Right alignment of images on mobile is deeply horribly wrong. Compare test email between VGTF and WDCS.
 - [ ] CARE
+	- Odoo Client Fehler when trying to create document. SyntaxError: Unexpected String @web.assets_web.min.js:2415
 - [ ] MPSA
+	- Header needs to be considered. Current tools do not allow for an easy way to make the header, unless we want to accept \[Header 1]. Instead, we can use the technique shown in \[Header 3], just make the thing an image as it should have been in the first place, the only change I would make is touch up the text rendering a little
 - [ ] TRAL
 
 Save these for last:
