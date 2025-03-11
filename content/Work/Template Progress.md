@@ -19,8 +19,19 @@ tags:
 - [ ] ROKI
 	- [ ] Requires CSS: blockquote { font-size: initial; }
 - [ ] AIAT
+	- Waiting on image width
 
 Major Bugs:
+* Crash seen once but we can add error handling for this:
+```
+114, in _compute_fs_body_html
+    full_html = FsMailingMailing.add_missing_height_style(full_html)
+  File "/opt/dadi-addons/fs_email_editor/models/mailing_mailing.py", line 476, in add_missing_height_style
+    max_child_height = max([0 if 'height' not in custom_col['style'] else
+  File "/opt/dadi-addons/fs_email_editor/models/mailing_mailing.py", line 477, in <listcomp>
+    parse_styles(custom_col['style'])['height']
+KeyError: 'height'
+```
 - [ ] Gaps between elements with dark footers
 	- Fix: Every element needs to have background color applied, not just the topmost.
 - [ ] Small font sizes have too large line height (caused by p default font size)
