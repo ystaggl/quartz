@@ -16,7 +16,8 @@ tags:
 - [ ] WRTV
 	- [ ] Daten aendern button needs to be setup
 	- [ ] Acid Testing
-- [ ] WITA - Background images needed
+- [ ] WITA 
+	- Background images needed
 - [ ] ROKI
 	- [ ] Requires CSS: blockquote { font-size: initial; }
 		- still not implemented
