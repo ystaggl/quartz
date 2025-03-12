@@ -15,9 +15,11 @@ tags:
 - [x] PROJ
 - [x] WRTV
 	* Daten ändern button needs to be updated (replace about:blank with form link) 
-- [ ] WITA - Background images needed
+- [ ] WITA 
+	- Background images needed
 - [ ] ROKI
 	- [ ] Requires CSS: blockquote { font-size: initial; }
+		- still not implemented
 - [ ] AIAT
 	- Waiting on image width
 	- use 64px image and add note
@@ -54,5 +56,6 @@ KeyError: 'height'
 *  Should be fixed? Waiting for testing.
 - [ ] Gaps between elements with dark footers
 	- Fix: Every element needs to have background color applied, not just the topmost.
+- [ ] /Spalten vertical alignment doesn't work
 - [ ] Small font sizes have too large line height (caused by p default font size)
 	- We are skipping this for now
