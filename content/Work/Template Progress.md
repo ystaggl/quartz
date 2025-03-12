@@ -15,15 +15,15 @@ tags:
 - [x] PROJ
 - [x] AIAT
 - [x] WRTV
-	* Daten ändern button needs to be updated (replace about:blank with form link) 
+	- [ ] Daten ändern button needs to be updated (replace about:blank with form link) 
 - [x] MPSA
 - [x] ROKI
 	- [x] Acid testing
 	- [ ] Spende Button needs link set
 	- [ ] CI Changes:
-		- Primär (oder sekundar) button -> Rot CI
+		- [ ] Primär (oder sekundar) button -> Rot CI
 - [x] VGTF 
-	- Modified CI to match old newsletter:
+	- [ ] Modified CI to match old newsletter:
 		- h1 32px #585757
 		- h2 24px #585757
 		- h3  20px #585757
@@ -34,9 +34,9 @@ tags:
 	* bottom text should be centered on mobile only
 - [ ] CARE
 - [ ] WITA 
-	- Background images needed
+	- [ ] Background images needed
 - [ ] CONA
-	- signature needs to be specially built
+	- [ ] signature needs to be specially built
 - [ ] GL2K
 - [ ] RNDE
 
