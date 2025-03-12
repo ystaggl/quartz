@@ -16,14 +16,7 @@ tags:
 - [x] AIAT
 - [x] WRTV
 	* Daten ändern button needs to be updated (replace about:blank with form link) 
-- [ ] WITA 
-	- Background images needed
-- [ ] ROKI
-	- [x] Acid testing
-	- [ ] Spende Button needs link set
-	- [ ] CI Changes:
-		- Primär (oder sekundar) button -> Rot CI
-
+- [x] MPSA
 - [ ] VGTF 
 	- Modified CI to match old newsletter:
 		- h1 32px #585757
@@ -33,11 +26,14 @@ tags:
 		- link 16px #585757
 		- Hintergrund \#EDEBE4
 		- CI Lime Green: \#94C11C
+- [ ] ROKI
+	- [x] Acid testing
+	- [ ] Spende Button needs link set
+	- [ ] CI Changes:
+		- Primär (oder sekundar) button -> Rot CI
 - [ ] CARE
-- [ ] MPSA
-	- Header is currently an image, should be replaced once the /spalten vertical align is fixed.
-
-Save these for last:
+- [ ] WITA 
+	- Background images needed
 - [ ] CONA
 - [ ] GL2K
 - [ ] RNDE
