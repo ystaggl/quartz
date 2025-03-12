@@ -17,7 +17,12 @@ tags:
 - [x] WRTV
 	* Daten ändern button needs to be updated (replace about:blank with form link) 
 - [x] MPSA
-- [ ] VGTF 
+- [x] ROKI
+	- [x] Acid testing
+	- [ ] Spende Button needs link set
+	- [ ] CI Changes:
+		- Primär (oder sekundar) button -> Rot CI
+- [x] VGTF 
 	- Modified CI to match old newsletter:
 		- h1 32px #585757
 		- h2 24px #585757
@@ -26,15 +31,12 @@ tags:
 		- link 16px #585757
 		- Hintergrund \#EDEBE4
 		- CI Lime Green: \#94C11C
-- [ ] ROKI
-	- [x] Acid testing
-	- [ ] Spende Button needs link set
-	- [ ] CI Changes:
-		- Primär (oder sekundar) button -> Rot CI
+	* bottom text should be centered on mobile only
 - [ ] CARE
 - [ ] WITA 
 	- Background images needed
 - [ ] CONA
+	- signature needs to be specially built
 - [ ] GL2K
 - [ ] RNDE
 
