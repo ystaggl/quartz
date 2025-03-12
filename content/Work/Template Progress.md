@@ -13,18 +13,17 @@ tags:
 - [x] TIQU
 - [x] WDCS
 - [x] PROJ
+- [x] AIAT
 - [x] WRTV
 	* Daten ändern button needs to be updated (replace about:blank with form link) 
 - [ ] WITA 
 	- Background images needed
 - [ ] ROKI
+	- [x] Acid testing
 	- [ ] Spende Button needs link set
 	- [ ] CI Changes:
 		- Primär (oder sekundar) button -> Rot CI
-- [ ] AIAT
-	- Waiting on image width
-	- note: Needs image width
-	- note: needs /spalten vert align fix
+
 - [ ] VGTF 
 	- Modified CI to match old newsletter:
 		- h1 32px #585757
@@ -44,6 +43,7 @@ Save these for last:
 - [ ] RNDE
 
 Major Bugs:
+- [x] python bug crash
 - [ ] Gaps between elements with dark footers
 	- Fix: Every element needs to have background color applied, not just the topmost.
 - [x] /Spalten vertical alignment doesn't work
