@@ -47,3 +47,5 @@ Major Bugs:
 - [x] /Spalten vertical alignment doesn't work
 - [ ] Small font sizes have too large line height (caused by p default font size)
 	- We are skipping this for now
+- [ ] Padding on images causes them to distort:
+	- Only applies to images with a modified resolution, easy workaround is to disable this functionality.
