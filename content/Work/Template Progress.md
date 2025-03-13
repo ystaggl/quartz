@@ -33,6 +33,11 @@ tags:
 		- CI Lime Green: \#94C11C
 	* bottom text should be centered on mobile only
 - [ ] CARE
+	- [ ] Acid testing
+	- [ ] Changes from requested:
+		- Logo Changed (80 years of care -> care)
+		- old social icons replaced due to footer color change
+		- footer links set to black instead of orange for visibility (footer color is the same as default link color)
 - [ ] WITA 
 	- Background images needed
 - [ ] CONA
