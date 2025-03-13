@@ -40,20 +40,21 @@ tags:
 		- old social icons replaced due to footer color change
 		- footer links set to black instead of orange for visibility (footer color is the same as default link color)
 		- Not all text could match the old font size as they weren't options in odoo. I've chosen the next closest in all situations, but in the footer Kontakt section this causes the KONTAKT text to be the same size as the details where previously it was slightly larger.
-- [ ] WITA 
-	- [ ] Background images needed
 - [x] CONA
 	- [ ] signature needs to be specially built
 - [x] GL2K
+- [ ] WITA 
+	- [ ] Background images needed
 - [ ] RNDE
+	- [ ] Can't log in to fundraising studio
 
 Major Bugs:
 - [ ] text floating on top of images that have padding applied, see CARE
-- [x] python bug crash
 - [ ] Gaps between elements with dark footers
 	- Fix: Every element needs to have background color applied, not just the topmost.
-- [x] /Spalten vertical alignment doesn't work
 - [ ] Small font sizes have too large line height (caused by p default font size)
 	- We are skipping this for now
+- [x] python bug crash
+- [x] /Spalten vertical alignment doesn't work
 - [x] Padding on images causes them to distort:
 	- Only applies to images with a modified resolution, easy workaround is to disable this functionality.
