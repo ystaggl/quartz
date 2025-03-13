@@ -1,7 +1,6 @@
 ---
-title: Welcome
-draft: false
-tags: []
+title: Welcome to Quartz
 ---
-# Welcome to my blog!
-this is my blog, it's a bunch of markdown files hosted using Quartz and Cloudflare Pages
+
+This is a blank Quartz installation.
+See the [documentation](https://quartz.jzhao.xyz) for how to get started.

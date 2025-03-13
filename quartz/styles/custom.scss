@@ -4,6 +4,9 @@
 .contains-task-list::before {
     text-decoration: revert !important
 }
+ul > li:has(input:not([checked])) {
+    text-decoration: none !important;
+}
 // input[type="checkbox"]::before {
     // text-decoration: revert
 // }
