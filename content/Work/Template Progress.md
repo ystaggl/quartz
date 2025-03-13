@@ -39,7 +39,7 @@ tags:
 		- Logo Changed (80 years of care -> care)
 		- old social icons replaced due to footer color change
 		- footer links set to black instead of orange for visibility (footer color is the same as default link color)
-		- Not all text could match the old font size as they weren't options in odoo. I've chosen the next closest in all situations, but in the footer Kontakt section this causes the KONTAKT text to be the same size as the details where previously it was slightly larger.
+		- Not all text could match the old font size as they weren't options in odoo. I've chosen the next closest in all situations (my usual procedure), but in the footer Kontakt section this causes the KONTAKT text to be the same size as the details where previously it was slightly larger.
 - [x] CONA
 	- [ ] signature needs to be specially built
 - [x] GL2K
