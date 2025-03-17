@@ -55,9 +55,9 @@ win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,WIDTH,HEIGHT,win32con.SWP_SHOWWIND
 ```
 
 The main values you'll want to change are 
-<span id="code-variable">LEFT_OFFSET</span> which defines how far from the leftmost position of your left monitor the window is positioned
-<span id="code-variable">RDP_WAIT</span>, the delay (in seconds) to wait for the RDP window to load, and
-<span id="code-variable">REMOTE_DESKTOP_PROFILE</span>, the path to your remote desktop profile
+**`cls:code-variable` LEFT_OFFSET** which defines how far from the leftmost position of your left monitor the window is positioned
+**`cls:code-variable` RDP_WAIT**, the delay (in seconds) to wait for the RDP window to load, and
+**`cls:code-variable` REMOTE_DESKTOP_PROFILE**, the path to your remote desktop profile
 # Remote Desktop Profile
 The second thing you'll need to make this fix work is a Remote Desktop Profile file, as remote desktop windows will only use the resolution given to them by the launcher or their profile. This can easily be made from the Remote Desktop connection window, ensure the settings for your connection are correct, and save it
 ![[Pasted image 20250317145113.png]]
@@ -77,7 +77,7 @@ win32gui.SetWindowLong(hwnd,win32con.GWL_STYLE,style)
 win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,WIDTH,HEIGHT,win32con.SWP_SHOWWINDOW)
 ```
 
-TARGET_CLASS is the class name of a window, in this case the RDP window. This is an identifier that can be used to find the same window across multiple sessions or even when the exe filename is changed. They aren't absolutely bulletproof, especially when there are multiple instances of the same window, but for my purposes with this script they're more than enough. Personally, I usually find these using the AutoHotKey window spy.
+**`class: code-variable` TARGET_CLASS** is the class name of a window, in this case the RDP window. This is an identifier that can be used to find the same window across multiple sessions or even when the exe filename is changed. They aren't absolutely bulletproof, especially when there are multiple instances of the same window, but for my purposes with this script they're more than enough. Personally, I usually find these using the AutoHotKey window spy.
 
 [FindWindow](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-findwindowa) then gets us a hWnd window handle from the class, this is a truly unique identifier for a specific instance of a window, meaning it changes every time the window is reopened, but this value is necessary for targeting the upcoming function calls
 
