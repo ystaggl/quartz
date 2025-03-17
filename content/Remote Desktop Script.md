@@ -74,7 +74,7 @@ style = win32gui.GetWindowLong(hwnd,win32con.GWL_STYLE)
 style += STYLE_MOD
 win32gui.SetWindowLong(hwnd,win32con.GWL_STYLE,style)
 
-win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,WIDTH,HEIGHT,win32con.SWP_SHOWWINDOW)
+win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,0,0,uFlags)
 ```
 
 <span class="code-variable">TARGET_CLASS</span> is the class name of a window, in this case the RDP window. This is an identifier that can be used to find the same window across multiple sessions or even when the exe filename is changed. They aren't absolutely bulletproof, especially when there are multiple instances of the same window, but for my purposes with this script they're more than enough. Personally, I usually find these using the AutoHotKey window spy.
@@ -85,4 +85,4 @@ win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,WIDTH,HEIGHT,win32con.SWP_SHOWWIND
 
 Of course simply increasing our style value will not mutate our window directly, we need to apply our new modified style value to our window, for this we use [SetWindowLong](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowlongptra), which I hope at this point is rather self-explanatory.
 
-Finally, I modify the windows position using [SetWindowPos](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowpos), to position it exactly at the start of my right monitor. This function requires a width and height value, even though the RDP window will override them. I've included them with a value set to 0, to make it easier to understand how the function works, but you can replace them with 0 if you want.
+Finally, I modify the windows position using [SetWindowPos](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowpos), this applies the window style flags, as well as repositions the window exactly at the start of my right monitor, creating a borderless fullscreen window stacked on my taskbar. We use 0 for the width and height as we aren't changing them  I've included them with a value set to 0, to make it easier to understand how the function works, but you can replace them with 0 if you want.
