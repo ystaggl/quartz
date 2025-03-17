@@ -34,7 +34,6 @@ tags:
 	* bottom text should be centered on mobile only
 - [x] CARE
 	- [x] Acid testing
-	- [ ] Bug found: When setting padding on image it can cause text to float on top of the image in yahoo/aol web client. For now I've worked around it by setting the padding on the column instead.
 	- [ ] Changes from requested:
 		- Logo Changed (80 years of care -> care)
 		- old social icons replaced due to footer color change
@@ -43,14 +42,13 @@ tags:
 - [x] CONA
 	- [ ] signature needs to be specially built
 - [x] GL2K
+- [ ] RNDE
 - [ ] WITA 
 	- [ ] Background images needed
-- [ ] RNDE
-	- [ ] Can't log in to fundraising studio
 
 Major Bugs:
 - [ ] text floating on top of images that have padding applied, see CARE
-- [ ] Gaps between elements with dark footers
+- [ ] Gaps between elements with dark background 
 	- Fix: Every element needs to have background color applied, not just the topmost.
 - [ ] Small font sizes have too large line height (caused by p default font size)
 	- We are skipping this for now
