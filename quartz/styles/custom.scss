@@ -1,5 +1,5 @@
 @use "./base.scss";
-@use "./colors.css";
+@import "./colors.css";
 
 // put your custom CSS here!
 .contains-task-list::before {
