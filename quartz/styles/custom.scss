@@ -7,6 +7,12 @@
 ul > li:has(input:not([checked])) {
     text-decoration: none !important;
 }
-// input[type="checkbox"]::before {
-    // text-decoration: revert
-// }
+
+.code-variable {
+    color: #7fbfe6;
+    font-weight: bold;
+}
+
+h1 {
+    color: #db7cdd;
+}

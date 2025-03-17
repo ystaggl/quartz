@@ -3,11 +3,7 @@ title: A better Remote Desktop experience
 draft: false
 tags:
 ---
-<style>
-.code-variable {
-color: red
-}
-</style>
+
 <!-- text goes here -->
 Recently I have been using Remote Desktop for work, and it's managed to frustrate me quite a bit. When the window is in full screen, I can't easily access the other programs on that monitor. Alternatively I can have it windowed, which works but doesn't properly fit my screen. I wanted a better solution, so I wrote one.
 
@@ -60,8 +56,8 @@ win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,WIDTH,HEIGHT,win32con.SWP_SHOWWIND
 
 The main values you'll want to change are 
 <span id="code-variable">LEFT_OFFSET</span> which defines how far from the leftmost position of your left monitor the window is positioned
-RDP_WAIT, the delay (in seconds) to wait for the RDP window to load, and
-REMOTE_DESKTOP_PROFILE, the path to your remote desktop profile
+<span id="code-variable">RDP_WAIT</span>, the delay (in seconds) to wait for the RDP window to load, and
+<span id="code-variable">REMOTE_DESKTOP_PROFILE</span>, the path to your remote desktop profile
 # Remote Desktop Profile
 The second thing you'll need to make this fix work is a Remote Desktop Profile file, as remote desktop windows will only use the resolution given to them by the launcher or their profile. This can easily be made from the Remote Desktop connection window, ensure the settings for your connection are correct, and save it
 ![[Pasted image 20250317145113.png]]
