@@ -27,7 +27,8 @@ RDP_WAIT = 7 #How long to wait for RDP to start
 #Only touch these if you know what you're doing
 TARGET_CLASS = 'TscShellContainerClass' #Class name of RDP Window
 
-STYLE_MOD = -(win32con.WS_CAPTION + win32con.WS_SYSMENU + win32con.WS_BORDER + win32con.WS_SIZEBOX) #Style flags corresponding to window border
+#Style flags corresponding to window border
+STYLE_MOD = -(win32con.WS_CAPTION + win32con.WS_SYSMENU + win32con.WS_BORDER + win32con.WS_SIZEBOX) 
 
 #Tells SetWindowPos to only change position and then apply changes to window styles
 uFlags = win32con.SWP_NOSIZE | win32con.SWP_NOZORDER | win32con.SWP_FRAMECHANGED 
