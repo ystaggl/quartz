@@ -51,7 +51,7 @@ style = win32gui.GetWindowLong(hwnd,win32con.GWL_STYLE)
 style += STYLE_MOD
 win32gui.SetWindowLong(hwnd,win32con.GWL_STYLE,style)
 
-win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,0,o,uFlags)
+win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,0,0,uFlags)
 ```
 
 The main values you'll want to change are 
