@@ -43,6 +43,7 @@ tags:
 	- [ ] signature needs to be specially built
 - [x] GL2K
 - [ ] RNDE
+	- [ ] Need example email to be sent to me by Simon
 - [ ] WITA 
 	- [ ] Background images needed
 
