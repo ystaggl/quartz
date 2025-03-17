@@ -24,13 +24,13 @@ REMOTE_DESKTOP_PROFILE = r'PATH\TO\RDP\PROFILE'
 LEFT_OFFSET = 1920 #Distance from left of leftmost monitor to RDP window
 RDP_WAIT = 7 #How long to wait for RDP to start
 
-TARGET_CLASS = 'TscShellContainerClass' #Class name of RDP Window, don't change
+#Only touch these if you know what you're doing
+TARGET_CLASS = 'TscShellContainerClass' #Class name of RDP Window
 
-STYLE_MOD = -(win32con.WS_CAPTION + win32con.WS_SYSMENU + win32con.WS_BORDER + win32con.WS_SIZEBOX)
+STYLE_MOD = -(win32con.WS_CAPTION + win32con.WS_SYSMENU + win32con.WS_BORDER + win32con.WS_SIZEBOX) #Style flags corresponding to window border
 
-#These are needed for the winapi function call, but don't actually do anything as they're overriden by the RDP profile
-WIDTH = 0
-HEIGHT = 0
+#Tells SetWindowPos to only change position and then apply changes to window styles
+uFlags = win32con.SWP_NOSIZE | win32con.SWP_NOZORDER | win32con.SWP_FRAMECHANGED 
 
 
 
@@ -51,7 +51,7 @@ style = win32gui.GetWindowLong(hwnd,win32con.GWL_STYLE)
 style += STYLE_MOD
 win32gui.SetWindowLong(hwnd,win32con.GWL_STYLE,style)
 
-win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,WIDTH,HEIGHT,win32con.SWP_SHOWWINDOW)
+win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,0,o,uFlags)
 ```
 
 The main values you'll want to change are 
