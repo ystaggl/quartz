@@ -54,7 +54,7 @@ win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,WIDTH,HEIGHT,win32con.SWP_SHOWWIND
 ```
 
 The main values you'll want to change are 
-<span style="color:">LEFT_OFFSET</span> which defines how far from the leftmost position of your left monitor the window is positioned
+<span style="color:blue">LEFT_OFFSET</span> which defines how far from the leftmost position of your left monitor the window is positioned
 RDP_WAIT, the delay (in seconds) to wait for the RDP window to load, and
 REMOTE_DESKTOP_PROFILE, the path to your remote desktop profile
 # Remote Desktop Profile
