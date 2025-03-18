@@ -2,6 +2,8 @@
 title: A Better Remote Desktop
 draft: false
 tags:
+  - Programming
+  - Windows-Enhancements
 ---
 Recently I have been using Remote Desktop for work, and it's managed to frustrate me quite a bit. When the window is in full screen, I can't easily access the other programs on that monitor. Alternatively I can have it windowed, which works but doesn't properly fit my screen. I wanted a better solution, so I wrote one.
 
