@@ -25,8 +25,8 @@ RDP_WAIT = 7 #How long to wait for RDP to start
 #Only touch these if you know what you're doing
 TARGET_CLASS = 'TscShellContainerClass' #Class name of RDP Window
 
-#Style flags corresponding to window border
-STYLE_MOD = -(win32con.WS_CAPTION + win32con.WS_SYSMENU + win32con.WS_BORDER + win32con.WS_SIZEBOX)
+#These flags will be removed from the window
+STYLE_MOD = win32con.WS_CAPTION | win32con.WS_SYSMENU | win32con.WS_BORDER | win32con.WS_SIZEBOX
 
 #Tells SetWindowPos to only change position and then apply changes to window styles
 uFlags = win32con.SWP_NOSIZE | win32con.SWP_NOZORDER | win32con.SWP_FRAMECHANGED 
@@ -47,7 +47,7 @@ for i in range(RDP_WAIT):
 hwnd = win32gui.FindWindow(TARGET_CLASS,None) 
 
 style = win32gui.GetWindowLong(hwnd,win32con.GWL_STYLE)
-style += STYLE_MOD
+style -= STYLE_MOD
 win32gui.SetWindowLong(hwnd,win32con.GWL_STYLE,style)
 
 win32gui.SetWindowPos(hwnd,None,LEFT_OFFSET,0,0,0,uFlags)
