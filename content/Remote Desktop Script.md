@@ -1,10 +1,8 @@
 ---
-title: A Better Remote Desktop Experience
+title: A Better Remote Desktop
 draft: false
 tags:
 ---
-
-<!-- text goes here -->
 Recently I have been using Remote Desktop for work, and it's managed to frustrate me quite a bit. When the window is in full screen, I can't easily access the other programs on that monitor. Alternatively I can have it windowed, which works but doesn't properly fit my screen. I wanted a better solution, so I wrote one.
 
 # The Result
@@ -28,7 +26,7 @@ RDP_WAIT = 7 #How long to wait for RDP to start
 TARGET_CLASS = 'TscShellContainerClass' #Class name of RDP Window
 
 #Style flags corresponding to window border
-STYLE_MOD = -(win32con.WS_CAPTION + win32con.WS_SYSMENU + win32con.WS_BORDER + win32con.WS_SIZEBOX) 
+STYLE_MOD = -(win32con.WS_CAPTION + win32con.WS_SYSMENU + win32con.WS_BORDER + win32con.WS_SIZEBOX)
 
 #Tells SetWindowPos to only change position and then apply changes to window styles
 uFlags = win32con.SWP_NOSIZE | win32con.SWP_NOZORDER | win32con.SWP_FRAMECHANGED 

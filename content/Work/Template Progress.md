@@ -57,3 +57,6 @@ Major Bugs:
 - [x] /Spalten vertical alignment doesn't work
 - [x] Padding on images causes them to distort:
 	- Only applies to images with a modified resolution, easy workaround is to disable this functionality.
+a
+Improvements:
+- [ ] idea: 'lock' button on width (for mobile)
