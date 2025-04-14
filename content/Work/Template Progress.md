@@ -42,10 +42,12 @@ tags:
 - [x] CONA
 	- [ ] signature needs to be specially built
 - [x] GL2K
-- [ ] RNDE
-	- [ ] Need example email to be sent to me by Simon
+- [x] RNDE
 - [ ] WITA 
 	- [ ] Background images needed
+- [x] WSCA
+	- [ ] check email links
+- [ ] TRAL
 
 Major Bugs:
 - [ ] text floating on top of images that have padding applied, see CARE
@@ -57,6 +59,6 @@ Major Bugs:
 - [x] /Spalten vertical alignment doesn't work
 - [x] Padding on images causes them to distort:
 	- Only applies to images with a modified resolution, easy workaround is to disable this functionality.
-a
+
 Improvements:
 - [ ] idea: 'lock' button on width (for mobile)

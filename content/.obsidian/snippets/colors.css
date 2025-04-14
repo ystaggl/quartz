@@ -1,0 +1,13 @@
+
+.code-variable {
+    color: #D19A66;
+    font-weight: bold;
+}
+
+h1, .HyperMD-header-1 {
+    color: #C678DD;
+}
+
+.article-title, .inline-title {
+    color: #D19A66 !important;
+}
